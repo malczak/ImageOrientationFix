@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32F910671745074900FB434C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F910661745074800FB434C /* UIKit.framework */; };
+		32F910691745074900FB434C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F910681745074900FB434C /* Foundation.framework */; };
+		32F9106B1745074900FB434C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F9106A1745074900FB434C /* CoreGraphics.framework */; };
+		32F910711745074900FB434C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32F9106F1745074900FB434C /* InfoPlist.strings */; };
+		32F910731745074900FB434C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F910721745074900FB434C /* main.m */; };
+		32F910771745074A00FB434C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F910761745074A00FB434C /* AppDelegate.m */; };
+		32F910791745074A00FB434C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F910781745074A00FB434C /* Default.png */; };
+		32F9107B1745074A00FB434C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F9107A1745074A00FB434C /* Default@2x.png */; };
+		32F9107D1745074A00FB434C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F9107C1745074A00FB434C /* Default-568h@2x.png */; };
+		32F910801745074A00FB434C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F9107E1745074A00FB434C /* MainStoryboard.storyboard */; };
+		32F910831745074A00FB434C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F910821745074A00FB434C /* ViewController.m */; };
+		32F91091174507C400FB434C /* down-mirrored.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32F91089174507C300FB434C /* down-mirrored.jpg */; };
+		32F91092174507C400FB434C /* down.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32F9108A174507C400FB434C /* down.jpg */; };
+		32F91093174507C400FB434C /* left-mirrored.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32F9108B174507C400FB434C /* left-mirrored.jpg */; };
+		32F91094174507C400FB434C /* left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32F9108C174507C400FB434C /* left.jpg */; };
+		32F91095174507C400FB434C /* right-mirrored.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32F9108D174507C400FB434C /* right-mirrored.jpg */; };
+		32F91096174507C400FB434C /* right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32F9108E174507C400FB434C /* right.jpg */; };
+		32F91097174507C400FB434C /* up-mirrored.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32F9108F174507C400FB434C /* up-mirrored.jpg */; };
+		32F91098174507C400FB434C /* up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32F91090174507C400FB434C /* up.jpg */; };
+		32F9109C1745085500FB434C /* ImageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F9109B1745085500FB434C /* ImageTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32F910631745074800FB434C /* ImageOrientationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageOrientationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F910661745074800FB434C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32F910681745074900FB434C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32F9106A1745074900FB434C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32F9106E1745074900FB434C /* ImageOrientationTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageOrientationTest-Info.plist"; sourceTree = "<group>"; };
+		32F910701745074900FB434C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32F910721745074900FB434C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32F910741745074900FB434C /* ImageOrientationTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageOrientationTest-Prefix.pch"; sourceTree = "<group>"; };
+		32F910751745074900FB434C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32F910761745074A00FB434C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32F910781745074A00FB434C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		32F9107A1745074A00FB434C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		32F9107C1745074A00FB434C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		32F9107F1745074A00FB434C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		32F910811745074A00FB434C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32F910821745074A00FB434C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32F91089174507C300FB434C /* down-mirrored.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "down-mirrored.jpg"; sourceTree = "<group>"; };
+		32F9108A174507C400FB434C /* down.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = down.jpg; sourceTree = "<group>"; };
+		32F9108B174507C400FB434C /* left-mirrored.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "left-mirrored.jpg"; sourceTree = "<group>"; };
+		32F9108C174507C400FB434C /* left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = left.jpg; sourceTree = "<group>"; };
+		32F9108D174507C400FB434C /* right-mirrored.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "right-mirrored.jpg"; sourceTree = "<group>"; };
+		32F9108E174507C400FB434C /* right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = right.jpg; sourceTree = "<group>"; };
+		32F9108F174507C400FB434C /* up-mirrored.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "up-mirrored.jpg"; sourceTree = "<group>"; };
+		32F91090174507C400FB434C /* up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = up.jpg; sourceTree = "<group>"; };
+		32F9109A1745085500FB434C /* ImageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableViewController.h; sourceTree = "<group>"; };
+		32F9109B1745085500FB434C /* ImageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32F910601745074800FB434C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F910671745074900FB434C /* UIKit.framework in Frameworks */,
+				32F910691745074900FB434C /* Foundation.framework in Frameworks */,
+				32F9106B1745074900FB434C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32F9105A1745074700FB434C = {
+			isa = PBXGroup;
+			children = (
+				32F9106C1745074900FB434C /* ImageOrientationTest */,
+				32F910651745074800FB434C /* Frameworks */,
+				32F910641745074800FB434C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32F910641745074800FB434C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32F910631745074800FB434C /* ImageOrientationTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32F910651745074800FB434C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32F910661745074800FB434C /* UIKit.framework */,
+				32F910681745074900FB434C /* Foundation.framework */,
+				32F9106A1745074900FB434C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32F9106C1745074900FB434C /* ImageOrientationTest */ = {
+			isa = PBXGroup;
+			children = (
+				32F91099174507DE00FB434C /* Images */,
+				32F910751745074900FB434C /* AppDelegate.h */,
+				32F910761745074A00FB434C /* AppDelegate.m */,
+				32F9107E1745074A00FB434C /* MainStoryboard.storyboard */,
+				32F910811745074A00FB434C /* ViewController.h */,
+				32F910821745074A00FB434C /* ViewController.m */,
+				32F9109A1745085500FB434C /* ImageTableViewController.h */,
+				32F9109B1745085500FB434C /* ImageTableViewController.m */,
+				32F9106D1745074900FB434C /* Supporting Files */,
+			);
+			path = ImageOrientationTest;
+			sourceTree = "<group>";
+		};
+		32F9106D1745074900FB434C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32F9106E1745074900FB434C /* ImageOrientationTest-Info.plist */,
+				32F9106F1745074900FB434C /* InfoPlist.strings */,
+				32F910721745074900FB434C /* main.m */,
+				32F910741745074900FB434C /* ImageOrientationTest-Prefix.pch */,
+				32F910781745074A00FB434C /* Default.png */,
+				32F9107A1745074A00FB434C /* Default@2x.png */,
+				32F9107C1745074A00FB434C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32F91099174507DE00FB434C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				32F91089174507C300FB434C /* down-mirrored.jpg */,
+				32F9108A174507C400FB434C /* down.jpg */,
+				32F9108B174507C400FB434C /* left-mirrored.jpg */,
+				32F9108C174507C400FB434C /* left.jpg */,
+				32F9108D174507C400FB434C /* right-mirrored.jpg */,
+				32F9108E174507C400FB434C /* right.jpg */,
+				32F9108F174507C400FB434C /* up-mirrored.jpg */,
+				32F91090174507C400FB434C /* up.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32F910621745074800FB434C /* ImageOrientationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F910861745074A00FB434C /* Build configuration list for PBXNativeTarget "ImageOrientationTest" */;
+			buildPhases = (
+				32F9105F1745074800FB434C /* Sources */,
+				32F910601745074800FB434C /* Frameworks */,
+				32F910611745074800FB434C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageOrientationTest;
+			productName = ImageOrientationTest;
+			productReference = 32F910631745074800FB434C /* ImageOrientationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32F9105B1745074800FB434C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sfs;
+			};
+			buildConfigurationList = 32F9105E1745074800FB434C /* Build configuration list for PBXProject "ImageOrientationTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32F9105A1745074700FB434C;
+			productRefGroup = 32F910641745074800FB434C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32F910621745074800FB434C /* ImageOrientationTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32F910611745074800FB434C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F910711745074900FB434C /* InfoPlist.strings in Resources */,
+				32F910791745074A00FB434C /* Default.png in Resources */,
+				32F9107B1745074A00FB434C /* Default@2x.png in Resources */,
+				32F9107D1745074A00FB434C /* Default-568h@2x.png in Resources */,
+				32F910801745074A00FB434C /* MainStoryboard.storyboard in Resources */,
+				32F91091174507C400FB434C /* down-mirrored.jpg in Resources */,
+				32F91092174507C400FB434C /* down.jpg in Resources */,
+				32F91093174507C400FB434C /* left-mirrored.jpg in Resources */,
+				32F91094174507C400FB434C /* left.jpg in Resources */,
+				32F91095174507C400FB434C /* right-mirrored.jpg in Resources */,
+				32F91096174507C400FB434C /* right.jpg in Resources */,
+				32F91097174507C400FB434C /* up-mirrored.jpg in Resources */,
+				32F91098174507C400FB434C /* up.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32F9105F1745074800FB434C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F910731745074900FB434C /* main.m in Sources */,
+				32F910771745074A00FB434C /* AppDelegate.m in Sources */,
+				32F910831745074A00FB434C /* ViewController.m in Sources */,
+				32F9109C1745085500FB434C /* ImageTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32F9106F1745074900FB434C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32F910701745074900FB434C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32F9107E1745074A00FB434C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32F9107F1745074A00FB434C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32F910841745074A00FB434C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		32F910851745074A00FB434C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32F910871745074A00FB434C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageOrientationTest/ImageOrientationTest-Prefix.pch";
+				INFOPLIST_FILE = "ImageOrientationTest/ImageOrientationTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32F910881745074A00FB434C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageOrientationTest/ImageOrientationTest-Prefix.pch";
+				INFOPLIST_FILE = "ImageOrientationTest/ImageOrientationTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32F9105E1745074800FB434C /* Build configuration list for PBXProject "ImageOrientationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F910841745074A00FB434C /* Debug */,
+				32F910851745074A00FB434C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F910861745074A00FB434C /* Build configuration list for PBXNativeTarget "ImageOrientationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F910871745074A00FB434C /* Debug */,
+				32F910881745074A00FB434C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32F9105B1745074800FB434C /* Project object */;
+}
